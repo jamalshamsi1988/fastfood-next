@@ -1,4 +1,5 @@
 import { useRouter } from 'next/router';
+import DetailsPage from '../../components/templates/DetailsPage';
 
 
 const Details = ({data}) => {
@@ -9,9 +10,7 @@ const Details = ({data}) => {
     }
 
   return (
-    <div>
-      
-    </div>
+    <DetailsPage {...data} />
   )
 }
 
