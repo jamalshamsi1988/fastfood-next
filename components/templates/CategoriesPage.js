@@ -29,8 +29,8 @@ const CategoriesPage = () => {
 
           <select value={query.time} name='time' onChange={changeHandler}>
           <option value="">Cooking Time</option>
-          <option value="More">More than 30 min</option>
-          <option value="Less">Less than 30 min</option>
+          <option value="more">More than 30 min</option>
+          <option value="less">Less than 30 min</option>
           </select>
             <button onClick={clickHandler}>Search</button>
         </div>
