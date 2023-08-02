@@ -16,7 +16,7 @@ const Layout = ({children}) => {
       <div className={styles.container}>{children}</div>
 
       <footer className={styles.footer}>
-        <a href='https://github.com/jamalshamsi1988' target='_blank'>Jamal Shamsi</a>
+        <a href='https://github.com/jamalshamsi1988' target='_blank' rel="noreferrer">Jamal Shamsi</a>
             Fast Food | Next.js Project &copy;
       </footer>
     </div>
