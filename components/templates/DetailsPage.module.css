@@ -76,7 +76,7 @@
   }
   
   .details li::before {
-    content: "â€¢ ";
+    content: "• ";
     color:  rgb(5, 114, 114);
   }
   
